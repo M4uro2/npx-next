@@ -1,12 +1,19 @@
 import Image from "next/image";
-import React from "react";
 
 export default function Home() {
   return (
-    <div>
-      <h1 className="container">
-        Bem vindo á Biblioteca do IFPB!
-      </h1>  
+    <div className="container">
+      <h1>
+        Bem vindo ao ifpb
+      </h1>
+      <Image
+      src="/logo-ifpb.png"
+      alt="logo ifpb"
+      width={300} 
+      height={250}
+      />
+
+      <p>Explore nossa coleção de livros, artigos e recursos digitais</p>
     </div>
   );
 }
