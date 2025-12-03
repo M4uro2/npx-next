@@ -9,7 +9,7 @@ export default function Footer() {
             &copy; {anoAtual} Intituto Federal da Paraíba (IPFB).
             Todos os direitos resevardos.
             <br /> Desenvolvido para fins didàticos.
-            por aluno Carlos miguel
+            por aluno Mauro Neto
         </p>
         </footer>
     )
